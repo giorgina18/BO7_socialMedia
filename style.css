@@ -1,0 +1,94 @@
+*,
+* ::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1 rem is nu 10 pixels */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  navigatie bar */
+.navigation {
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    background: #0B2447;
+    box-shadow: 4px 10px 10px rgba(87, 108, 204, 0.4);
+    list-style: none;
+    color: #eee;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    margin-bottom: 4rem;
+}
+
+/* user header */
+.container {
+    background: #19376D;
+    padding: 0.5rem;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px rgba(25, 55, 109, 0.6);
+
+}
+
+.user__header {
+    display: grid;
+    grid-template-columns: 100px 250px 250px 250px;
+    color: #eee;
+    align-items: center;
+}
+
+.user-logo{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+/* user gebruikers */
+
+.user__container {
+    padding: 2.5rem;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #19376D;
+    padding-bottom: 2px;
+}
+
+.user-logo {
+    border-radius: 50%;
+    width: auto;
+    height: 6rem;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 32px 250px 250px 250px;
+    text-align: center;
+}
+
+.user-gebruiker {
+    display: grid;
+    grid-template-columns: 300px 280px 330px 250px;
+    text-align: center;
+    align-items: center;
+}
